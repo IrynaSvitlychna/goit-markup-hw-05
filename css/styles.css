@@ -85,8 +85,8 @@ section {
   margin-left: auto;
   margin-right: auto;
 
-  outline: 2px solid red;
-  outline-offset: -2px;
+  /* outline: 2px solid red;
+  outline-offset: -2px; */
 }
 
 .header-section {
@@ -467,8 +467,8 @@ section {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid red;
-  outline-offset: -2px;
+  /* outline: 2px solid red;
+  outline-offset: -2px; */
   align-items: baseline;
 }
 
@@ -476,8 +476,8 @@ section {
   margin-right: 120px;
 }
 
-.link-foot {
-  margin-bottom: 16px;
+.foot-logo-text {
+  margin-top: 18px;
 }
 
 .foot-set-social {
@@ -515,6 +515,58 @@ section {
 .foot-social-icon {
   width: 40px;
   height: 40px;
+}
+
+.foot-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.foot-form-input {
+  width: 264px;
+  height: 40px;
+  /* flex-shrink: 0; */
+  outline: transparent;
+  background-color: transparent;
+
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+
+  border-radius: 4px;
+  border: 1px solid var(--WHITE);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.foot-form-input:focus {
+}
+
+.foot-form-input::placeholder {
+  color: var(--WHITE);
+}
+
+.btn-foot {
+  width: 165px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 16px; */
+  text-align: center;
+  border-radius: 4px;
+  background-color: var(--iris);
+}
+
+.icon-btn {
+  fill: var(--WHITE);
+  margin-left: 16px;
+  /* display: inline-flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 .accent-pf {
@@ -568,6 +620,7 @@ section {
 .pf-list-bf-btn:focus {
   background-color: var(--OCEAN);
   color: var(--WHITE);
+  border: transparent;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
@@ -722,4 +775,13 @@ section {
 .modal-icon-btn:hover .modal-icon-btn,
 .modal-icon-btn:focus .modal-icon-btn {
   fill: #ffffff;
+}
+
+.modal-caption {
+  width: 360px;
+  color: var(--Navyblue);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
