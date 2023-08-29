@@ -527,15 +527,13 @@ section {
 .foot-form-input {
   width: 264px;
   height: 40px;
-  /* flex-shrink: 0; */
   outline: transparent;
   background-color: transparent;
   padding-left: 16px;
-
+  color: var(--WHITE);
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-
   border-radius: 4px;
   border: 1px solid var(--WHITE);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -549,7 +547,8 @@ section {
 }
 
 .btn-foot {
-  width: 165px;
+  min-width: 165px;
+  height: 40px;
   letter-spacing: 0.04em;
   font-weight: 500;
   display: inline-flex;
@@ -558,6 +557,7 @@ section {
   align-items: center;
   /* gap: 16px; */
   text-align: center;
+  border: none;
   border-radius: 4px;
   background-color: var(--iris);
 }
@@ -863,6 +863,7 @@ section {
   pointer-events: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-form-input:focus + .modal-form-icon {
   fill: var(--iris);
 }
