@@ -85,8 +85,8 @@ section {
   margin-left: auto;
   margin-right: auto;
 
-  /* outline: 2px solid red;
-  outline-offset: -2px; */
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .header-section {
@@ -456,6 +456,7 @@ section {
   border: 1px solid var(--OCEAN);
 }
 
+/* Footer */
 .foot {
   background-color: var(--Navyblue);
   padding: 100px 0;
@@ -686,6 +687,7 @@ section {
   letter-spacing: 0.02em;
 }
 
+/* Footer */
 .text-foot {
   font-weight: 500;
   margin-bottom: 16px;
@@ -702,6 +704,7 @@ section {
   color: var(--CLOUD);
 }
 
+/* Модальне вікно */
 .backdrop {
   position: fixed;
   top: 0;
